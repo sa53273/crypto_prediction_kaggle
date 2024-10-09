@@ -1,8 +1,8 @@
-## Cryptocurrency Price Direction Predictor
+# Cryptocurrency Price Direction Predictor
 
 This repository contains my solution for the Cryptocurrency Price Direction Predictor competition hosted by ciccada3301 on Kaggle. The goal of this competition is to develop a model that accurately predicts whether the price of a cryptocurrency will move up or stay the same/move down in the next minute, based on historical data.
 
-# Model Selection and Experiments
+## Model Selection and Experiments
 
 1. Random Forest Classifier
 
