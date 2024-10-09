@@ -4,7 +4,7 @@ This repository contains my solution for the Cryptocurrency Price Direction Pred
 
 ## Model Selection and Experiments
 
-1. Random Forest Classifier
+### 1. Random Forest Classifier
 
 The final model used for prediction is a Random Forest Classifier. Extensive experimentation was conducted to identify the best hyperparameters using GridSearchCV. The following parameters were tuned:
 
@@ -17,7 +17,7 @@ Final Random Forest Model Performance:
 	•	F1 Score: 0.76556
 	•	Accuracy: The model achieved a relatively strong performance in terms of classification accuracy and F1 score, indicating a good balance between precision and recall.
 
-2. LSTM Model
+### 2. LSTM Model
 
 I also experimented with using a Long Short-Term Memory (LSTM) neural network to capture sequential dependencies in the price data, but didn't include it in my final solution due to underfitting. The LSTM model was built with the following architecture:
 
